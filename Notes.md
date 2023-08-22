@@ -33,8 +33,9 @@ for pluginid in $(cat $outputfile); do
         fi
 done
 ```
-Logs:
-```[root@tenable-5cfxx56r nasl]# tail /root/plugin.lst-enriched
+Sample outputs:
+```
+[root@tenable-5cfxx56r nasl]# tail /root/plugin.lst-enriched
 35803|zFeeder admin.php Direct Request Admin Authentication Bypass|6|CGI abuses
 14325|ZixForum ZixForum.mdb DIrect Request Database Disclosure|6|CGI abuses
 168810|Zoom Client for Meetings < 5.12.6 Vulnerability (ZSB-22025)|23|Misc.
