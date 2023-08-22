@@ -46,4 +46,10 @@ Sample outputs:
 24698|ZPanel 2.0 Multiple Script Remote File Inclusion|6|CGI abuses
 40886|Zmanda Recovery Manager for MySQL socket-server.pl MYSQL_BINPATH Variable Command Execution|6|CGI abuses
 78430|ZXShell Malware Services Detection|35|Backdoors
+
+[root@tenable-5cfxx56r nasl]# wc -l /root/plugin.lst-enriched
+6064 /root/plugin.lst-enriched
+
 ```
+
+
